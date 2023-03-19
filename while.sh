@@ -1,9 +1,9 @@
 # Just a simple script, using while loop.
 
-# Calling out our binary program.
+# Where in the file system sits our binary program.
 
 $ which bash
-$ /bin/bash
+usr/bin/bash
 
 # Shebang.
 #!/bin/bash
