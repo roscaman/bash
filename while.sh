@@ -12,9 +12,9 @@ usr/bin/bash
 variable=1
 
 while [ $variable -lt 11 ] ;do
-  echo "counting $variable"
+    echo "counting $variable"
 # To increase our valor.
-  variable=$(( $variable + 1 ))
+    variable=$(( $variable + 1 ))
 
 done
 
