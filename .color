@@ -1,6 +1,6 @@
 # Creating $PS1 options, just for fun.
 
-$ touch ~/.color
+$ vi ~/.color
 
 export red="\033[1,31m"
 export green="\033[1,32m"
