@@ -2,12 +2,12 @@
 
 for variable in file1.txt file2.txt ;do
 # Asking if those files are in our actual file system.
-  if [ -e $variable] ;then
+if [ -e $variable] ;then
     echo -e "{placeholder}$variable exists! ${reset}"
-  else
+else
     echo -e "{placeholder}$variable does NOT exist! ${reset}"
     
-  fi
+fi
   
- # Ending our script.
- done
+# Ending our script.
+done
